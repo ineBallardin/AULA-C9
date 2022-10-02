@@ -66,6 +66,7 @@ function draw()
 {
   background(255)
   text(`Pontuação: ${score}`, 500, 50)
+  trex.changeAnimation("running", trexRunning)
 
   if (gameState === PLAY)
   {
